@@ -1,0 +1,38 @@
+{
+  "name": "wallet-service",
+  "version": "1.0.0",
+  "description": "Wallet Service",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/cluster.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharSNagpal/wallet-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharSNagpal/wallet-service/issues"
+  },
+  "homepage": "https://github.com/TusharSNagpal/wallet-service#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "ioredis": "^5.11.1",
+    "mysql2": "^3.22.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^25.9.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
