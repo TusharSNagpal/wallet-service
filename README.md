@@ -44,6 +44,8 @@ The service follows **Domain-Driven Design (DDD)** with three clear layers:
 
 <img width="1266" height="450" alt="Screenshot 2026-06-06 at 8 28 50 PM" src="https://github.com/user-attachments/assets/70225faf-f9c6-46f7-b0cf-3d040f4c1633" />
 
+<img width="1457" height="486" alt="Screenshot 2026-06-06 at 8 35 28 PM" src="https://github.com/user-attachments/assets/38419cc4-af53-42cd-9b70-c982aa711601" />
+
 **Infrastructure:**
 - **MySQL** — persistent storage for wallets and transactions
 - **Redis** — distributed locking + balance caching
