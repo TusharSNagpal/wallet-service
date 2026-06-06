@@ -199,6 +199,8 @@ Paginated transaction history, ordered by latest first.
 
 ### 1. Idempotency via `payment_id`
 
+<img width="1326" height="642" alt="Screenshot 2026-06-06 at 8 52 15 PM" src="https://github.com/user-attachments/assets/c8f3785b-4f14-4726-a56d-fd965617725b" />
+
 Every topup/deduct carries a `paymentId`. Before processing, the service checks if a transaction with that `paymentId` already exists and returns the existing result instead of processing again.
 
 This handles retries from clients (e.g. network timeouts) without double-charging.
