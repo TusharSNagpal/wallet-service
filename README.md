@@ -1,6 +1,6 @@
 # Wallet Service
 
-A production-grade wallet microservice built with Node.js, TypeScript, Express, Sequelize (MySQL), and Redis. Supports wallet creation, balance management, and transaction history with idempotency, race condition protection, and horizontal scaling.
+A wallet microservice built with Node.js, TypeScript, Express, Sequelize (MySQL), and Redis. Supports wallet creation, balance management, and transaction history with idempotency, race condition protection, and horizontal scaling.
 
 ---
 
