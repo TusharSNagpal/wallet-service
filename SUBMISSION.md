@@ -154,16 +154,6 @@ Random jitter on each attempt prevents thundering herd when a lock releases.
 
 ---
 
-## What I'd Add With More Time
-
-| Gap | Fix |
-|---|---|
-| `console.log` logging | Structured JSON logs + Prometheus metrics |
-| No auth | JWT / API key; Order Service gets a scoped key for `/deduct` only |
-| Fixed 5s TTL | Measure p99 DB latency, set TTL at 3–5× that |
-
----
-
 ## Order Service Scripts
 
 `src/order_service_script/` — runnable stubs demonstrating the integration:
@@ -180,3 +170,15 @@ deduct_top_up/
 ```
 
 Run with: `npx ts-node src/order_service_script/<path>.ts`
+
+---
+
+## What I'd Add With More Time
+
+| Gap | Fix |
+|---|---|
+| `console.log` logging | Structured JSON logs + Prometheus metrics |
+| No auth | JWT / API key; Order Service gets a scoped key for `/deduct` only |
+| Fixed 5s TTL | Measure p99 DB latency, set TTL at 3–5× that |
+
+---
