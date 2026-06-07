@@ -1,6 +1,6 @@
 # Keychain OS — Wallet Service Submission
 
-**GITHUB REPOSITORY LINK:** `https://github.com/TusharSNagpal/wallet-service`
+**GITHUB REPOSITORY LINK:** [https://github.com/TusharSNagpal/wallet-service](https://github.com/TusharSNagpal/wallet-service)
 
 **Stack:** Node.js · TypeScript · Express · MySQL (Sequelize) · Redis · Jest
 
