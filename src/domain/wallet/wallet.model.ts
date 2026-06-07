@@ -19,6 +19,7 @@ Wallet.init(
     userId: {
       type: DataTypes.UUID,
       allowNull: false,
+      unique: true,
     },
     balance: {
       type: DataTypes.BIGINT,
